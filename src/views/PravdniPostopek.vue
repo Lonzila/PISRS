@@ -173,6 +173,8 @@ export default {
 
       const vrednostEur = (tocke * 0.6).toFixed(2);
       this.rezultat = { tocke, vrednostEur };
+
+      //this.$router.push("/presenecenje");
     },
     pretvoriTockeVstoritev(vrednost) {
       const tocke = Math.ceil(vrednost / 0.6);

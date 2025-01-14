@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'pravniska-slika': "url('/src/assets/pravniska-slika.jpg')",
+        'domennastja-slika': "url('/src/assets/domennastjaUSA.jpg')",
       },
     },
   },
